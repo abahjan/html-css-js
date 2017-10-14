@@ -1,0 +1,22 @@
+.kosel{
+	border-radius:40px;
+	background:#ff6666;
+	padding:20px;
+	width:200px;
+	height:150px;
+}
+.kose2{
+    border-radius:40px;
+	border: solid 10px;
+	border-color:#ff6666;
+	padding:20px;
+	width:200px;
+	height:150px;
+}
+.kose3{
+	border-radius:40px;
+	background-image:url(barcelona.jpg);
+	padding:20px;
+	width:200px;
+	height:150px;
+}

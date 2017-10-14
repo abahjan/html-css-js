@@ -1,0 +1,18 @@
+table{
+	border:2px solid black;
+	border-collapse:collapse;
+	padding:5px;
+}
+th {
+	border:2px solid black;
+	border-collapse:collapse;
+	padding:5px;
+	background-color:#ccddee;
+}
+td {
+
+	border:2px solid black;
+	border-collapse:collapse;
+	padding:5px;
+	background-color:red;
+}

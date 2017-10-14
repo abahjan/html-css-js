@@ -1,0 +1,33 @@
+div {
+	width:300px;
+	height:100px;
+	margin:4px;
+	font-size:30px;
+	padding:20px;
+	
+}
+div.gradient1 {
+	background:-webkit-linear-gradient(turquoise,black);
+	
+}
+div.gradient2 {
+	background:-webkit-linear-gradient(left,turquoise,black);
+}
+div.gradient3 {
+	background:-webkit-linear-gradient(right,turquoise,black);
+}
+div.gradient4 {
+	background:-webkit-linear-gradient(top left,turquoise,black);
+}
+div.gradient5 {
+	background:-webkit-linear-gradient(turquoise,magenta,blue);
+}
+div.gradient6 {
+	background:-webkit-linear-gradient(turquoise,magenta,black);
+}
+div.gradient7 {
+	background:-webkit-linear-gradient(right,turquoise,magenta,black);
+}
+div.gradient8 {
+	background:-webkit-linear-gradient(top left,turquoise,magenta,black);
+}

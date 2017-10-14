@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+	
+    <script>
+    /* 
+	var degisken =setTimeout(fonkisyon,sure)
+	clearTimeout(degisken)
+	
+	var degisken = setInterval(fonkisyon,sure)
+	clearInterval(degisken)
+	*/
+    
+	var say = 5;
+	var indirme;
+	var sure;
+	
+	function baslat() {
+	    indirme = setTimeout(dosyaindirme,5000);
+		
+		sureyisay();
+		
+		sure = setInterval(sureyisay,1000);
+		
+	}
+	function dosyaindirme() {
+	    window.alert("Dosaya inmeye basladi...");
+		
+		document.getElementById("para").innerHTML = "";
+		
+		say = 5;
+	}
+	function sureyisay() {
+	     document.getElementById("para").innerHTML = "Dosaya " + say + " saniye icince inecek...";
+	    say--;
+	
+	    if (say == 0){
+	    clearInterval(sure);
+		 }
+		
+	}
+	function islemleridurdur() {
+	    clearInterval(sure);
+		clearTimeout(indeme);
+		
+		document.getElementById("para").innerHTML = "Dosaya indermesi durduruldu...";
+		
+		say = 5;
+	}
+	
+    </script>
+	
+   </head>
+   <body>
+    <p> Dosyayi indimek icin tiklayin.</p>
+	<p id ="para"></p>
+	
+	<button onclick ="baslat();">Indirmek icin Tikleyin</button>
+	
+	<button onclick ="islemleridurdur();">Iptal Etmek icin tiklayin</button>
+	
+   </body>
+</html>

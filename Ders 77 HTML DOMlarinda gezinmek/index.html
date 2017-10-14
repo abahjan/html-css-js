@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+	
+    <script>
+    
+	function degistir() {
+	
+	var parent = document.getElementById("anakisim")
+	var child = parent.childNodes[1];  // var child = parent.firstElementChild;  ilik paragra demektir.
+	child.style.color ="red";
+	var child = parent.childNodes[3];
+	child.style.color ="green";
+	var child = parent.childNodes[5];
+	child.style.color ="yellow";
+	var child = parent.childNodes[7];  // var child = parent.lastElementChild;   son paragra demektir.
+	child.style.color ="blue";
+	}
+	
+    </script>
+	
+   </head>
+  
+   <body>
+  	
+	<div id = "anakisim" style ="background-color:#eeeeee">
+
+	
+	<p>
+	Lionel Messi, 24 Haziran 1987 tarihinde, İtalyan kökenli bir ailenin
+	dördüncü çocuğu olarak Risario,Arjantin’de dünyaya geldi.
+	Fabrika işçisi olan babası Jorge Messi, aynı zamanda Grandoli adlı 
+	yerel bir futbol klübünün de antrenörlüğünü yapıyordu. Messi,
+	beş yaşındayken bu yerel klüpte formagiymeye başlayarak futbol
+	hayatına atılmış oldu.
+	</p>
+	
+	<p>
+	1995 yılında, Newell’s Old Boys adlı klübe transfer olan Messi,
+	burada oynarken River Plate adlı Arjantin birinci ligi takımından
+	teklif aldı, fakat o sıralarda büyüme hormonu yetersizliği teşhektiği
+	ortaya çıktı. River Plate, haftada 900 dolar tutan tedavi masraflarını
+	ödeyecek durumda değildi; Messi’nin spor hayatı tehlikeye girmişti.
+	</p>
+	
+	<p>
+	O dönemde Arjantin de genç yeteneklerini araştıran FC Barcelona
+	Kulübü nün sportif direktörü Carles Rexach, Messi nin olağanustu 
+	futbol yeteneğini fark etmiş ve Messi ye tedavi masraflarını
+	karşılamak üzere İspanya da FC Barcelona Takımı nın alt yapısında
+	oynamasını teklif etmişti.
+	</p>
+	
+	<p>
+	Barcelona ile beraber ilk forma giydiği maç olan Porto-Barcelona 
+	maçında yer aldığında, Messi daha 16 yaşındaydı. 16 Ekim 2004 
+	tarihinde, 17 yaşındayken forma giydiği Espanyol – Barcelona maçı 
+	ile, İspanya Birinci Ligi (La Liga)’nde forma giyen en genç futbolcu
+	ünvanının sahibi oldu; bu ünvana 1 Mayıs 2005 tarihinde, Albacete’ye
+	gol atarak La Liga’da en genç yaşta gol atan futbolcu ünvanını da 
+	ekledi.
+	</p>
+
+	</div>
+	
+    <button onclick ="degistir()"> Degistir </button>
+	
+	
+   </body>
+</html>

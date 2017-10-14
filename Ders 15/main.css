@@ -1,0 +1,8 @@
+h1{
+	background-color:blue;
+	padding:10px 40px;
+	border-top:10px  dotted red;
+	border-bottom:10px groove yellow;
+	border-left: 8px sloid ;
+	border-right: 18px dashed red;
+}

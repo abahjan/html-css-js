@@ -1,0 +1,6 @@
+p:before{
+	content:url(24resim.png);
+}
+p:after{
+	content:"---------->";
+}

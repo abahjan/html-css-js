@@ -1,0 +1,8 @@
+h1{
+	background-color:yellow;
+	padding:10px 40px;
+	border-top:4px solid green;
+	border-bottom:8px groove orange;
+	
+	margin: 10px 30px 60px 100px; /*top right bottom left */
+}

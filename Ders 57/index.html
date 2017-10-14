@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset ="utf-8">
+		<link rel ="stylesheet" href ="main.css"/>
+		
+	</head>
+	
+	<script>
+	/*
+
+    == esit mi ? 
+	!= esit deil mi ?
+	> buyuk mu ?
+	< kucuk mu ?
+	<= soldaki deger sagdaski deger den ya kucuk yada esit olacak .
+	>= sol daki degerin sagdaki degerden buyuk yada esit olmasilazim .
+	
+	*/	
+	
+	// 1. document.write(4 == 4);  // ture diye cikacak .
+	// 2. document.write(4 == 6);  // false diye cikacak .
+	// 3. document.write(4 != 5);  // dort esit degil mi bese ? cevap ture 
+	// 4. document.write(4 != 4);  // dort dorte esit degil mi ? cevap false 
+	// 5. document.write(10 > 4);  // cevap ture diye cikacak.
+	// 6. document.write(4 > 10);  // cevap false diye cikacak .
+	// 7. document.write(4 <= 10); // cevap ture diye cikacak.
+	// 8. document.write(4 <= 4); // cevap ture diye cikacak.
+	// 9. document.write(4 <= 1); // cevap false diye cikacak.
+	// 10. document.write(4 >= 10); // cevap false diye cikacak.
+	
+	/*
+	
+	&& and ( bu tum kosullarin dogru ve ayni veya bir birine esit olmasi demek , biri ayni olmasa  tum islem yanlis olur).
+	|| or  ( bununda en az birinin dogru olmasi yeterli).
+	! not  ( bu kosullari dogru ise yanlis yanlis ise dogru ya cevirir).
+	
+	*/
+	// 1. document.write((3 < 4) && ("Abah" == "Abah") && (3.14 >= 3.1));
+	    //kosullar   true            true                 true   cecap ture cikacak .
+    // 2. document.write((3 > 4) && ("Abah" == "Abah") && (3.14 >= 3.1));
+	    //kosullar   false            true                 true   cecap false cikacak .
+	// 3. document.write((3 > 4) || ("Abah" == "Abah") || (3.14 >= 3.1));
+	    //kosullar   false            true                 true   cecap false cikacak .
+    // 4. document.write(!(3 > 4)); // cevap true cikacak .
+	document.write((3 > 4 && "ABAH" == "ABAH") || 3.14 > 3.1);
+	     // kosullar( (false        true)               true ) cavap true cikacak .  
+		
+		
+	</script>
+	
+	<body>
+	    
+	</body>
+</html>

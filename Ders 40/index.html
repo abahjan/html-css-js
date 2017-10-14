@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset ="utf-8">
+		<title> Ders 40 - Formlara ozellik kazandirma </title>
+		<link rel ="stylesheet" href ="main.css"/>
+		
+	</head>
+	<body>
+	    <form action ="" method ="">
+		
+		<fieldset>
+		    <legend>kisisel bilgiler </legend>
+			<p>
+			<label for ="isim"> isim:</label><input type="text" name="isim" id="isim">			
+			</p>
+			<p>
+			<label for ="soyisim"> soyisim:</label><input type="text" name="soyisim" id="soyisim">			
+			</p>
+			<p>
+			<label for ="email"> email:</label><input type="text" name="email" id="email">
+			</p>
+			<p>
+			<label for="adres">Adresiniz</label><br/><br/>
+			<textarea name="adres" id="adres" rows="5" cols="30" placeholder="adresiniz..."></textarea>
+			</P>
+			
+			<p> 
+			<label for="sehir">Nerede yasiyorsunuz?</label><br/>
+			<select name="sehir" id="sehir">
+			    <option value="Ankara">Ankara</option>
+				<option value="Istanbul" selected>Istanbul</option>
+				<option value="Izmir">Izmir</option>
+			
+			
+			</select>
+			</p>
+            <p>
+			Bildirim almak istiyormusunuz?
+			<label for="evet">Evet</label><input type="radio" name="evet" id="evet">
+			<label for="hayir">Hayir</label><input type="radio" name="evet" id="hayir">
+			
+			</p>
+			
+		</fieldset>
+		<br/>
+		<fieldset>
+		
+		<legend>Hobiler</legend>
+		<label for="basket">Basketbol oynamak</label><input type="checkbox" name="hobiler" value="basket" id="basket"/>
+		<label for="gitar">gitar calmak</label><input type="checkbox" name="hobiler" value="gitar" id="gitar"/>
+		<label for="resim">resim yapmak</label><input type="checkbox" name="hobiler" value="resim" id="resim"/>
+		
+		</fieldset>
+		</form>
+	</body>
+</html>
